@@ -1,0 +1,69 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "ConfiG",
+    "classifications": [ "GMML", "Mod" ],
+    "identity": "GMML.Mod",
+    "name": "GMML Mod Template",
+    "description": "A simple GMML mod template",
+    "shortName": "gmml",
+    "sourceName": "GMML.ModTemplate",
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "preferNameDirectory": true,
+    "symbols": {
+        "GamePath": {
+            "type": "parameter",
+            "description": "The path to the game to test the mod in. Used for the scripts.",
+            "datatype": "text",
+            "isRequired": false,
+            "defaultValue": "",
+            "replaces": "[GAME_DIR]"
+        },
+        "ID": {
+            "type": "parameter",
+            "description": "The unique, java-like identifier of the mod.",
+            "datatype": "text",
+            "isRequired": true,
+            "replaces": "[ID]"
+        },
+        "DisplayName": {
+            "type": "parameter",
+            "description": "The user-friendly display name of the mod.",
+            "datatype": "text",
+            "isRequired": true,
+            "replaces": "[NAME]"
+        },
+        "Version": {
+            "type": "parameter",
+            "description": "The Semver v2 version of the mod.",
+            "datatype": "text",
+            "isRequired": false,
+            "defaultValue": "0.1.0",
+            "replaces": "[VERSION]"
+        },
+        "Author": {
+            "type": "parameter",
+            "description": "The author of the mod.",
+            "datatype": "text",
+            "isRequired": true,
+            "replaces": "[AUTHOR]"
+        },
+        "Description": {
+            "type": "parameter",
+            "description": "The description of the mod.",
+            "datatype": "text",
+            "isRequired": false,
+            "defaultValue": "",
+            "replaces": "[DESCRIPTION]"
+        },
+        "WillYouSnail": {
+            "type": "parameter",
+            "description": "Whether to add additional WYS-related dependencies or not.",
+            "datatype": "bool",
+            "isRequired": false,
+            "defaultValue": "false"
+        }
+    }
+}
