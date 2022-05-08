@@ -6,8 +6,8 @@ namespace GMML.ModTemplate;
 
 public class GameMakerMod : IGameMakerMod {
     public void Load(int audioGroup, UndertaleData data, ModData currentMod) {
-        if(audioGroup != -1) return;
+        if(audioGroup != 0) return;
 
-
+        // your code
     }
 }

@@ -1,8 +1,7 @@
 @echo off
 call .\_set_game_dir.bat
-cd "..\..\"
-set /p rootPath=<%~1\bin\current.txt
-set rootPath=%~1\%rootPath%
+set /p rootPath=<..\..\%~1\bin\current.txt
+set rootPath=..\..\%~1\%rootPath%
 
 call .\remove_mod.bat %~1
 mkdir "%GAME_DIR%\gmml\mods\%~1"

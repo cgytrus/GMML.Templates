@@ -11,6 +11,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F2DDFBB2-F9E6-4A84-9E53-C1D8BC2DFAA5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bat", "bat", "{EE712764-9A55-4854-8029-BBECCFB33B0E}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\bat\_set_game_dir.bat = scripts\bat\_set_game_dir.bat
+		scripts\bat\clear_cache.bat = scripts\bat\clear_cache.bat
+		scripts\bat\libs.bat = scripts\bat\libs.bat
+		scripts\bat\mods.bat = scripts\bat\mods.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
