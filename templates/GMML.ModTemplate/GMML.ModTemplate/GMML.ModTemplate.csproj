@@ -14,31 +14,31 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Reference Include="GmmlConfig, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="GmmlConfig, Culture=neutral, PublicKeyToken=null">
             <HintPath>..\libs\gmml\mods\GmmlConfig\GmmlConfig.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="GmmlHooker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="GmmlHooker, Culture=neutral, PublicKeyToken=null">
             <HintPath>..\libs\gmml\mods\GmmlHooker\GmmlHooker.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="GmmlInteropGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="GmmlInteropGenerator, Culture=neutral, PublicKeyToken=null">
             <HintPath>..\libs\gmml\patcher\GmmlInteropGenerator.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="GmmlPatcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="GmmlPatcher, Culture=neutral, PublicKeyToken=null">
             <HintPath>..\libs\gmml\patcher\GmmlPatcher.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="UndertaleModLib, Version=0.4.0.4, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="UndertaleModLib, Culture=neutral, PublicKeyToken=null">
             <HintPath>..\libs\gmml\patcher\UndertaleModLib.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="WysApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(WillYouSnail)' == 'True'">
+        <Reference Include="WysApi, Culture=neutral, PublicKeyToken=null" Condition="'$(WillYouSnail)' == 'True'">
             <HintPath>..\libs\gmml\mods\WysApi\WysApi.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="WysModMenu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(WillYouSnail)' == 'True'">
+        <Reference Include="WysModMenu, Culture=neutral, PublicKeyToken=null" Condition="'$(WillYouSnail)' == 'True'">
             <HintPath>..\libs\gmml\mods\WysModMenu\WysModMenu.dll</HintPath>
             <Private>False</Private>
         </Reference>
